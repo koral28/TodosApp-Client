@@ -1,11 +1,13 @@
 <h4>Lists</h4>
 <div class="icons">
-  <div class="btn">
-    <button routerLink="1/edit" mat-icon-button>
-      <mat-icon>add</mat-icon>
-    </button>
-    <h1>New...</h1>
-  </div>
+  <span>
+    <div class="btn">
+      <button routerLink="1/edit" mat-icon-button>
+        <mat-icon>add</mat-icon>
+      </button>
+      <h1>New...</h1>
+    </div>
+  </span>
   <span *ngFor="let i of lists">
     <div class="btn">
       <button

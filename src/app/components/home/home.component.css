@@ -1,6 +1,6 @@
 .home{
     margin-top: 20px;
-    background-color: rgb(73, 190, 190);
+    background-color: rgb(0, 113, 206);
     padding: 50px;
     color: white;
     text-align: center;
@@ -19,7 +19,6 @@ button{
 }
 .total-li{
     text-align: center;
-    margin: 10px;
     padding: 20px;
 }
 
