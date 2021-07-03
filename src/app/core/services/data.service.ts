@@ -8,7 +8,7 @@ import { Observable } from 'rxjs'
   providedIn: 'root',
 })
 export class DataService {
-  readonly baseUrl: string = 'https://todos-app-mean-stack.herokuapp.com/'
+  readonly baseUrl: string = 'https://todos-app-mean-stack.herokuapp.com'
   constructor(private http: HttpClient) {}
 
   getLists(): Observable<List[]> {
